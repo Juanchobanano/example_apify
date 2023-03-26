@@ -1,0 +1,25 @@
+{
+    "title": "Add two integers",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+      "start_urls": {
+        "title": "start_urls",
+        "type": "string",
+        "description": "This is a dummy descrpition.",
+        "editor": "requestListSources", 
+        "prefill": [
+          {
+            "url": "https://apify.com"
+          }
+        ]
+      },
+      "depth": {
+        "title": "depth",
+        "type": "integer",
+        "description": "This is a dummy descrpition.",
+        "editor": "number"
+      }
+    },
+    "required": ["start_urls", "depth"]
+  }
