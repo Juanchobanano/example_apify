@@ -33,6 +33,8 @@ async def main():
         chrome_options.add_argument("--disable-dev-shm-usage")
         driver = webdriver.Chrome(options = chrome_options)
 
+        print("wtf my code")
+
         driver.get("http://www.example.com")
         assert driver.title == "Example Domain"
 
